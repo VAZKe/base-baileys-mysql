@@ -1,0 +1,103 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491161521916@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B2B03378B7E87EB0EF',
+    participant: undefined
+  },
+  messageTimestamp: 1700021253,
+  pushName: 'Facu ||VAZKe||',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5491161521916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_13f2fbed-3a47-43be-88bd-f0a92c178d57',
+  keyword: 'key_b08b164b-f914-4c5f-b360-465096916743',
+  answer: 'Hola, bienvenido/a a PosiVibes, tu espacio de apoyo emocional. Estamos aquí para ayudarte a cultivar una mente positiva y saludable. ¿En qué podemos asistirte hoy? 💙✨',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b4435a64fc0231f983c2ba80d5005cbc'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_dc9dfde8-3a65-48e7-99a1-60471c1b9735',
+  keyword: 'ans_13f2fbed-3a47-43be-88bd-f0a92c178d57',
+  answer: '1. Descubre recursos para gestionar el estrés y la ansiedad\n' +
+    '2. Quiero hablar con alguien\n' +
+    '3. ¿Qué es PosiVibes?\n' +
+    '4. Necesito ayuda urgente (Argentina)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8a0ce4c3a0c4a10c408615385c44e904'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491161521916@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F1B0E97464832C2ABD',
+    participant: undefined
+  },
+  messageTimestamp: 1700021259,
+  pushName: 'Facu ||VAZKe||',
+  broadcast: false,
+  message: Message {
+    conversation: '1ç',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1ç',
+  from: '5491161521916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f5caf074-bd10-4d26-b1a0-cdb3194eb69d',
+  keyword: 'key_d5d78e4c-5d48-4c36-8dd1-dd2224e63dad',
+  answer: 'Te invito a que visites el siguiente enlace de nuestra página web donde encontrarás recursos para diferentes situaciones, permitiéndote gestionar el estrés y la ansiedad de manera precisa. https://posiivibess-saludmental.my.canva.site/recursos-actividades\n' +
+    'Para regresar al menú principal, escribe 👉 volver.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c438c673d01b1cac173b96643b599502'
+}
