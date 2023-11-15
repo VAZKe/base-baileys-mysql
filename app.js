@@ -74,7 +74,7 @@ const flujoSecundario = addKeyword(['volver'])
         [flujoRespuesta1, flujoRespuesta2, flujoRespuesta3, flujoRespuesta4]
     )
 
-const flujoInicial = addKeyword(EVENTS.WELCOME)
+const flujoInicial = addKeyword(['hola'])
     .addAnswer('Hola, bienvenido/a a PosiVibes, tu espacio de apoyo emocional. Estamos aquí para ayudarte a cultivar una mente positiva y saludable. ¿En qué podemos asistirte hoy? 💙✨')
     .addAnswer(
         opcionesPrincipales,
@@ -82,6 +82,9 @@ const flujoInicial = addKeyword(EVENTS.WELCOME)
         null,
         [flujoRespuesta1, flujoRespuesta2, flujoRespuesta3, flujoRespuesta4]
     )
+
+const flujoIncorrecto = addKeyword(EVENTS.WELCOME)
+    .addAnswer('Lo siento, no entiendo 🤔. Por favor escriba "hola", para poder iniciar. Gracias')
 
 const main = async () => {
     const adapterDB = new MySQLAdapter({
@@ -91,7 +94,7 @@ const main = async () => {
         password: MYSQL_DB_PASSWORD,
         port: MYSQL_DB_PORT,
     })
-    const adapterFlow = createFlow([flujoInicial, flujoSecundario])
+    const adapterFlow = createFlow([flujoInicial, flujoSecundario, flujoIncorrecto])
     const adapterProvider = createProvider(BaileysProvider)
     createBot({
         flow: adapterFlow,
