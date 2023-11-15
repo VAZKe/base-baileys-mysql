@@ -1,4 +1,4 @@
-const { createBot, createProvider, createFlow, addKeyword, addAnswer } = require('@bot-whatsapp/bot')
+const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
@@ -74,7 +74,7 @@ const flujoSecundario = addKeyword(['volver'])
         [flujoRespuesta1, flujoRespuesta2, flujoRespuesta3, flujoRespuesta4]
     )
 
-const flujoInicial = addKeyword(['hola'])
+const flujoInicial = addKeyword(EVENTS.WELCOME)
     .addAnswer('Hola, bienvenido/a a PosiVibes, tu espacio de apoyo emocional. Estamos aquí para ayudarte a cultivar una mente positiva y saludable. ¿En qué podemos asistirte hoy? 💙✨')
     .addAnswer(
         opcionesPrincipales,
