@@ -1,26 +1,32 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5491161521916@s.whatsapp.net',
+    remoteJid: '5492658408179@s.whatsapp.net',
     fromMe: false,
-    id: '3EB01036254A81B2AE0B06',
+    id: '539F4FE89AE5DF21FF43211AC0EEB6AB',
     participant: undefined
   },
-  messageTimestamp: 1700024543,
-  pushName: 'Facu ||VAZKe||',
+  messageTimestamp: 1700081610,
+  pushName: 'Mary',
   broadcast: false,
+  verifiedBizName: 'Mary',
   message: Message {
-    conversation: 'sdfda',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'sdfda',
-  from: '5491161521916'
+  body: 'Hola',
+  from: '5492658408179'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c3232a44-bc6e-4783-8395-259825d5553a',
-  keyword: 'key_892ca6ad-4558-47aa-ae16-9f1c16fe27d7',
+  ref: 'ans_a03e9545-30ea-49f0-82ac-77a68e5626bb',
+  keyword: 'key_afdd4c22-e725-4260-917e-9880b3a8cfdd',
   answer: 'Hola, bienvenido/a a PosiVibes, tu espacio de apoyo emocional. Estamos aquí para ayudarte a cultivar una mente positiva y saludable. ¿En qué podemos asistirte hoy? 💙✨',
   options: {
     media: null,
@@ -34,11 +40,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '4a2142c96405e735a1f47b689ce43a6f'
+  refSerialize: '7b68386368f78f9f77358bc8a97a0fe6'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4c127770-c885-4710-b083-c545633686be',
-  keyword: 'ans_c3232a44-bc6e-4783-8395-259825d5553a',
+  ref: 'ans_0f5df95c-7b81-44eb-b412-cbfd3f92261b',
+  keyword: 'ans_a03e9545-30ea-49f0-82ac-77a68e5626bb',
   answer: '1. Descubre recursos para gestionar el estrés y la ansiedad\n' +
     '2. Quiero hablar con alguien\n' +
     '3. ¿Qué es PosiVibes?\n' +
@@ -60,17 +66,86 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '95621f2d9fa20534bd43dd0c5b795213'
+  refSerialize: '7fbe87d6a4a27682c0b901bfb767939d'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491161521916@s.whatsapp.net',
+    remoteJid: '5492657311306@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0F294C688C409972765',
+    id: '4EF97BFF1C2AB3BF4F9AA127EB5E5910',
     participant: undefined
   },
-  messageTimestamp: 1700024551,
-  pushName: 'Facu ||VAZKe||',
+  messageTimestamp: 1700093169,
+  pushName: 'Salome Lujan',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5492657311306'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a03e9545-30ea-49f0-82ac-77a68e5626bb',
+  keyword: 'key_afdd4c22-e725-4260-917e-9880b3a8cfdd',
+  answer: 'Hola, bienvenido/a a PosiVibes, tu espacio de apoyo emocional. Estamos aquí para ayudarte a cultivar una mente positiva y saludable. ¿En qué podemos asistirte hoy? 💙✨',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7b68386368f78f9f77358bc8a97a0fe6'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0f5df95c-7b81-44eb-b412-cbfd3f92261b',
+  keyword: 'ans_a03e9545-30ea-49f0-82ac-77a68e5626bb',
+  answer: '1. Descubre recursos para gestionar el estrés y la ansiedad\n' +
+    '2. Quiero hablar con alguien\n' +
+    '3. ¿Qué es PosiVibes?\n' +
+    '4. Necesito ayuda urgente (Argentina)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7fbe87d6a4a27682c0b901bfb767939d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492657311306@s.whatsapp.net',
+    fromMe: false,
+    id: 'A272B5E54F1654D7E7143CE86DA05871',
+    participant: undefined
+  },
+  messageTimestamp: 1700093180,
+  pushName: 'Salome Lujan',
   broadcast: false,
   message: Message {
     conversation: '1',
@@ -80,11 +155,11 @@
     }
   },
   body: '1',
-  from: '5491161521916'
+  from: '5492657311306'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e9635a60-e4e8-45af-9672-6b4d2bd08299',
-  keyword: 'key_e5915ac2-97dd-440b-8bc2-0d6f63a8a347',
+  ref: 'ans_5f3bc09d-93f6-438b-8533-37107c194d2d',
+  keyword: 'key_67897c28-d3e5-45c3-a608-637bd5d5ad35',
   answer: 'Te invito a que visites el siguiente enlace de nuestra página web donde encontrarás recursos para diferentes situaciones, permitiéndote gestionar el estrés y la ansiedad de manera precisa. https://posiivibess-saludmental.my.canva.site/recursos-actividades\n' +
     'Para regresar al menú principal, escribe 👉 volver.',
   options: {
@@ -99,31 +174,31 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'fed90d2202c55a07d5e1e843271ea35d'
+  refSerialize: 'add0d4b2d31c0fa6faf991138bcb2b74'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491161521916@s.whatsapp.net',
+    remoteJid: '5492657311306@s.whatsapp.net',
     fromMe: false,
-    id: '3EB07E8C4DCE0FE88EC2D8',
+    id: 'E05E6ECF14DACF837DBC213D92F6843B',
     participant: undefined
   },
-  messageTimestamp: 1700024557,
-  pushName: 'Facu ||VAZKe||',
+  messageTimestamp: 1700093208,
+  pushName: 'Salome Lujan',
   broadcast: false,
   message: Message {
-    conversation: 'volver',
+    conversation: 'Volver',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'volver',
-  from: '5491161521916'
+  body: 'Volver',
+  from: '5492657311306'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_628a1219-44af-44ea-89a4-e8721030165b',
-  keyword: 'key_2f4adb35-a5e4-40da-892b-405808e1052b',
+  ref: 'ans_99bf3d92-8f36-4e60-a626-a7d58494d1f2',
+  keyword: 'key_1385fb8d-f12e-4e25-8214-1cfedfa8cf43',
   answer: '1. Descubre recursos para gestionar el estrés y la ansiedad\n' +
     '2. Quiero hablar con alguien\n' +
     '3. ¿Qué es PosiVibes?\n' +
@@ -145,116 +220,32 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'e2b2e7e079c07a7679436506ac7fe266'
+  refSerialize: '2b2815e4e512ddf09ed7062a8b710be0'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491161521916@s.whatsapp.net',
+    remoteJid: '5492657311306@s.whatsapp.net',
     fromMe: false,
-    id: '3EB02CCC6B272A63D42F93',
+    id: '1A0DE901940E8DB1E52FDA0FFA3DD644',
     participant: undefined
   },
-  messageTimestamp: 1700024588,
-  pushName: 'Facu ||VAZKe||',
+  messageTimestamp: 1700093215,
+  pushName: 'Salome Lujan',
   broadcast: false,
   message: Message {
-    conversation: 'gfdsag',
+    conversation: '4',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'gfdsag',
-  from: '5491161521916'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491161521916@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0B2559B2E0518CA799E',
-    participant: undefined
-  },
-  messageTimestamp: 1700024638,
-  pushName: 'Facu ||VAZKe||',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '5491161521916'
+  body: '4',
+  from: '5492657311306'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c3232a44-bc6e-4783-8395-259825d5553a',
-  keyword: 'key_892ca6ad-4558-47aa-ae16-9f1c16fe27d7',
-  answer: 'Hola, bienvenido/a a PosiVibes, tu espacio de apoyo emocional. Estamos aquí para ayudarte a cultivar una mente positiva y saludable. ¿En qué podemos asistirte hoy? 💙✨',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '4a2142c96405e735a1f47b689ce43a6f'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4c127770-c885-4710-b083-c545633686be',
-  keyword: 'ans_c3232a44-bc6e-4783-8395-259825d5553a',
-  answer: '1. Descubre recursos para gestionar el estrés y la ansiedad\n' +
-    '2. Quiero hablar con alguien\n' +
-    '3. ¿Qué es PosiVibes?\n' +
-    '4. Necesito ayuda urgente (Argentina)',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '95621f2d9fa20534bd43dd0c5b795213'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491161521916@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB04330924C4D34C21596',
-    participant: undefined
-  },
-  messageTimestamp: 1700024647,
-  pushName: 'Facu ||VAZKe||',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '5491161521916'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e9635a60-e4e8-45af-9672-6b4d2bd08299',
-  keyword: 'key_e5915ac2-97dd-440b-8bc2-0d6f63a8a347',
-  answer: 'Te invito a que visites el siguiente enlace de nuestra página web donde encontrarás recursos para diferentes situaciones, permitiéndote gestionar el estrés y la ansiedad de manera precisa. https://posiivibess-saludmental.my.canva.site/recursos-actividades\n' +
+  ref: 'ans_e89884ca-ce49-497c-9db8-20aaf4419178',
+  keyword: 'key_8767f49b-12c5-4760-bb71-87cb8d2ffd66',
+  answer: 'Si necesitas ayuda urgente, por favor, comunícate con la Línea Nacional de Prevención del Suicidio en Argentina. Están disponibles las 24 horas. 📞 Teléfono: 135\n' +
     'Para regresar al menú principal, escribe 👉 volver.',
   options: {
     media: null,
@@ -268,154 +259,5 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'fed90d2202c55a07d5e1e843271ea35d'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491161521916@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB05081E6885B8618AEF4',
-    participant: undefined
-  },
-  messageTimestamp: 1700024652,
-  pushName: 'Facu ||VAZKe||',
-  broadcast: false,
-  message: Message {
-    conversation: 'volver',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'volver',
-  from: '5491161521916'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_628a1219-44af-44ea-89a4-e8721030165b',
-  keyword: 'key_2f4adb35-a5e4-40da-892b-405808e1052b',
-  answer: '1. Descubre recursos para gestionar el estrés y la ansiedad\n' +
-    '2. Quiero hablar con alguien\n' +
-    '3. ¿Qué es PosiVibes?\n' +
-    '4. Necesito ayuda urgente (Argentina)',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'e2b2e7e079c07a7679436506ac7fe266'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491161521916@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0958A2E1C5EC832DD25',
-    participant: undefined
-  },
-  messageTimestamp: 1700024655,
-  pushName: 'Facu ||VAZKe||',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5491161521916'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f9375f0f-9a7c-414d-819b-318c74876ec8',
-  keyword: 'key_0ddd5614-c52b-434e-b62a-fdb7e251a7c9',
-  answer: '¡Por supuesto! Puedes hablar con nosotros con total confianza. Estamos aquí para ayudarte. En unos minutos, un miembro de nuestro equipo estará contigo. 💙\n' +
-    'Para regresar al menú principal, escribe 👉 volver.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '23afa199a85f3c0e89fe0111d4fd5e98'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491161521916@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0ABF25DD6CE5280DA2C',
-    participant: undefined
-  },
-  messageTimestamp: 1700024661,
-  pushName: 'Facu ||VAZKe||',
-  broadcast: false,
-  message: Message {
-    conversation: 'fjasdkj',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'fjasdkj',
-  from: '5491161521916'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c3232a44-bc6e-4783-8395-259825d5553a',
-  keyword: 'key_892ca6ad-4558-47aa-ae16-9f1c16fe27d7',
-  answer: 'Hola, bienvenido/a a PosiVibes, tu espacio de apoyo emocional. Estamos aquí para ayudarte a cultivar una mente positiva y saludable. ¿En qué podemos asistirte hoy? 💙✨',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '4a2142c96405e735a1f47b689ce43a6f'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4c127770-c885-4710-b083-c545633686be',
-  keyword: 'ans_c3232a44-bc6e-4783-8395-259825d5553a',
-  answer: '1. Descubre recursos para gestionar el estrés y la ansiedad\n' +
-    '2. Quiero hablar con alguien\n' +
-    '3. ¿Qué es PosiVibes?\n' +
-    '4. Necesito ayuda urgente (Argentina)',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '95621f2d9fa20534bd43dd0c5b795213'
+  refSerialize: 'd4eaf2df17fba5744242e68d05b26f12'
 }
